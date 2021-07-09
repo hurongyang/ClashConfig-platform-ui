@@ -1,0 +1,36 @@
+.login_border {
+  text-align: center;
+  width: 500px;
+  height: 480px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 5px solid #d9ecff;
+  border-radius: 4px;
+}
+
+.el-container {
+  padding: 40px;
+  height: 100%;
+}
+
+.el-header {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: xx-large;
+  color: rgb(91, 86, 86);
+}
+
+.el-tab-pane {
+  font-size: larger;
+}
+
+.el-main {
+  height: 100%;
+}
+
+.el-tabs {
+  height: 100%;
+}

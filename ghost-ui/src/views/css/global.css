@@ -1,0 +1,7 @@
+html,body,#app {
+  background: url('https://gitee.com/lyt-top/vue-next-admin-images/raw/master/login/bg-login.png') no-repeat;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

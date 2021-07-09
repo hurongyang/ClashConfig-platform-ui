@@ -1,4 +1,5 @@
 <template>
+<div class="login">
   <div class="login_border">
     <el-container>
       <el-header> ClashXPro 管理后台 </el-header>
@@ -11,6 +12,7 @@
       </el-main>
     </el-container>
   </div>
+</div>
 </template>
 
 <script>

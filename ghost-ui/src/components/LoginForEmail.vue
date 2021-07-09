@@ -4,8 +4,8 @@
   <el-form ref="form" :model="form">
   <el-form-item>
     <el-input
-    placeholder="请输入账号"
-    prefix-icon="el-icon-user-solid"
+    placeholder="请输入企业邮箱"
+    prefix-icon="el-icon-message"
     v-model="form.email"
     >
     </el-input>

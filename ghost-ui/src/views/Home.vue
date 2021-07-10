@@ -21,6 +21,15 @@
           <i class="el-icon-menu"></i>
           <template #title>首页</template>
         </el-menu-item>
+        <el-submenu index="10">
+          <template #title>
+            <i class="el-icon-office-building"></i>
+            <span>部署服务器</span>
+          </template>
+          <el-menu-item index="1-1">Trojan</el-menu-item>
+          <el-menu-item index="1-2">Shadowsocks</el-menu-item>
+          <el-menu-item index="1-3">V2ray</el-menu-item>
+        </el-submenu>
         <!-- 1 -->
         <el-submenu index="1">
           <template #title>
@@ -53,10 +62,12 @@
         </el-menu-item>
       </el-menu>
     </el-aside>
-    <!-- 主要区域 -->
-    <el-main>
-      Main
-    </el-main>
+    <el-container>
+      <!-- Header -->
+      <el-header>Header</el-header>
+      <!-- Main -->
+      <el-main>Main</el-main>
+    </el-container>
   </el-container>
 </template>
 
@@ -86,7 +97,6 @@ export default {
   background-color: #565C63;
   height: 100%;
 }
-
 .Collapse {
   text-align: center;
   color: #D7D8D9;
@@ -96,7 +106,13 @@ export default {
   /* 设置 icon 图标大小 */
   font-size: 30px;
 }
-.el-main {
+.el-menu {
+  width: 200px;
+}
+.el-header {
   background-color: #FFFFFF;
+}
+.el-main {
+  background-color: #F8F8F8;
 }
 </style>

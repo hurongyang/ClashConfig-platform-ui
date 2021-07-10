@@ -28,6 +28,11 @@ export default {
     return {
       activeName: 'ForEmail'
     }
+  },
+  methods: {
+    handleClick () {
+      console.log(this)
+    }
   }
 }
 </script>

@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .account {
-  margin-top: 100px
+  margin-top: 100px;
 }
 .el-button {
   width: 100%;

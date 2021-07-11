@@ -8,7 +8,7 @@ import store from './store'
 import './views/css/global.css'
 
 import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:8000/api/v1'
+axios.defaults.baseURL = 'http://localhost:9000/api'
 
 const app = createApp(App)
 app.use(store)

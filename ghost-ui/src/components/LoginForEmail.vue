@@ -56,12 +56,16 @@ export default {
     }
   },
   methods: {
-    // 登录之前，表单规则的预验证
     loginForEmail(formName) {
       this.$refs[formName].validate((valid) => {
+        // 登录之前，表单规则的预验证
         if (!valid) {
           return false
         }
+        // 发起登录请求
+        console.log(this.loginEmailForm)
+        const a = this.$http.post('/login', this.loginEmailForm)
+        console.log(a)
       })
     }
   }
